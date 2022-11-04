@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.12"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.7",
+    "isomorphic-ws": "^5.0.0",
+    "simpleddp": "^2.2.4",
+    "simpleddp-plugin-login": "^4.0.2",
+    "utf-8-validate": "^5.0.10",
+    "ws": "^8.10.0"
+  }
+}
